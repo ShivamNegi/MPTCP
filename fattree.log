@@ -1,0 +1,427 @@
+INFO:mininet:*** Creating network
+
+INFO:mininet:*** Adding controller
+
+INFO:mininet:*** Adding hosts:
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Adding switches:
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+*** Adding links:
+
+INFO:mininet:(s1001, s2001) 
+INFO:mininet:(s1001, s2003) 
+INFO:mininet:(s1001, s2005) 
+INFO:mininet:(s1001, s2007) 
+INFO:mininet:(s1002, s2001) 
+INFO:mininet:(s1002, s2003) 
+INFO:mininet:(s1002, s2005) 
+INFO:mininet:(s1002, s2007) 
+INFO:mininet:(s1003, s2002) 
+INFO:mininet:(s1003, s2004) 
+INFO:mininet:(s1003, s2006) 
+INFO:mininet:(s1003, s2008) 
+INFO:mininet:(s1004, s2002) 
+INFO:mininet:(s1004, s2004) 
+INFO:mininet:(s1004, s2006) 
+INFO:mininet:(s1004, s2008) 
+INFO:mininet:(s2001, s3001) 
+INFO:mininet:(s2001, s3002) 
+INFO:mininet:(s2002, s3001) 
+INFO:mininet:(s2002, s3002) 
+INFO:mininet:(s2003, s3003) 
+INFO:mininet:(s2003, s3004) 
+INFO:mininet:(s2004, s3003) 
+INFO:mininet:(s2004, s3004) 
+INFO:mininet:(s2005, s3005) 
+INFO:mininet:(s2005, s3006) 
+INFO:mininet:(s2006, s3005) 
+INFO:mininet:(s2006, s3006) 
+INFO:mininet:(s2007, s3007) 
+INFO:mininet:(s2007, s3008) 
+INFO:mininet:(s2008, s3007) 
+INFO:mininet:(s2008, s3008) 
+INFO:mininet:(s3001, h001) 
+INFO:mininet:(s3001, h002) 
+INFO:mininet:(s3002, h003) 
+INFO:mininet:(s3002, h004) 
+INFO:mininet:(s3003, h005) 
+INFO:mininet:(s3003, h006) 
+INFO:mininet:(s3004, h007) 
+INFO:mininet:(s3004, h008) 
+INFO:mininet:(s3005, h009) 
+INFO:mininet:(s3005, h010) 
+INFO:mininet:(s3006, h011) 
+INFO:mininet:(s3006, h012) 
+INFO:mininet:(s3007, h013) 
+INFO:mininet:(s3007, h014) 
+INFO:mininet:(s3008, h015) 
+INFO:mininet:(s3008, h016) 
+INFO:mininet:
+
+INFO:mininet:*** Configuring hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+
+INFO:mininet:*** Starting controller
+
+INFO:mininet:c0 
+INFO:mininet:
+
+INFO:mininet:*** Starting 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:...
+INFO:mininet:
+
+INFO:mininet:*** Starting CLI:
+
+Level 25:mininet:available nodes are: 
+c0 h001 h002 h003 h004 h005 h006 h007 h008 h009 h010 h011 h012 h013 h014 h015 h016 s1001 s1002 s1003 s1004 s2001 s2002 s2003 s2004 s2005 s2006 s2007 s2008 s3001 s3002 s3003 s3004 s3005 s3006 s3007 s3008
+
+Level 25:mininet:<Host h001: h001-eth0:10.0.0.1 pid=28225> 
+
+Level 25:mininet:<Host h002: h002-eth0:10.0.0.2 pid=28227> 
+
+Level 25:mininet:<Host h003: h003-eth0:10.0.0.3 pid=28229> 
+
+Level 25:mininet:<Host h004: h004-eth0:10.0.0.4 pid=28231> 
+
+Level 25:mininet:<Host h005: h005-eth0:10.0.0.5 pid=28233> 
+
+Level 25:mininet:<Host h006: h006-eth0:10.0.0.6 pid=28235> 
+
+Level 25:mininet:<Host h007: h007-eth0:10.0.0.7 pid=28237> 
+
+Level 25:mininet:<Host h008: h008-eth0:10.0.0.8 pid=28239> 
+
+Level 25:mininet:<Host h009: h009-eth0:10.0.0.9 pid=28241> 
+
+Level 25:mininet:<Host h010: h010-eth0:10.0.0.10 pid=28243> 
+
+Level 25:mininet:<Host h011: h011-eth0:10.0.0.11 pid=28245> 
+
+Level 25:mininet:<Host h012: h012-eth0:10.0.0.12 pid=28247> 
+
+Level 25:mininet:<Host h013: h013-eth0:10.0.0.13 pid=28249> 
+
+Level 25:mininet:<Host h014: h014-eth0:10.0.0.14 pid=28251> 
+
+Level 25:mininet:<Host h015: h015-eth0:10.0.0.15 pid=28253> 
+
+Level 25:mininet:<Host h016: h016-eth0:10.0.0.16 pid=28255> 
+
+Level 25:mininet:<OVSSwitch s1001: lo:127.0.0.1,s1001-eth1:None,s1001-eth2:None,s1001-eth3:None,s1001-eth4:None pid=28260> 
+
+Level 25:mininet:<OVSSwitch s1002: lo:127.0.0.1,s1002-eth1:None,s1002-eth2:None,s1002-eth3:None,s1002-eth4:None pid=28263> 
+
+Level 25:mininet:<OVSSwitch s1003: lo:127.0.0.1,s1003-eth1:None,s1003-eth2:None,s1003-eth3:None,s1003-eth4:None pid=28266> 
+
+Level 25:mininet:<OVSSwitch s1004: lo:127.0.0.1,s1004-eth1:None,s1004-eth2:None,s1004-eth3:None,s1004-eth4:None pid=28269> 
+
+Level 25:mininet:<OVSSwitch s2001: lo:127.0.0.1,s2001-eth1:None,s2001-eth2:None,s2001-eth3:None,s2001-eth4:None pid=28272> 
+
+Level 25:mininet:<OVSSwitch s2002: lo:127.0.0.1,s2002-eth1:None,s2002-eth2:None,s2002-eth3:None,s2002-eth4:None pid=28275> 
+
+Level 25:mininet:<OVSSwitch s2003: lo:127.0.0.1,s2003-eth1:None,s2003-eth2:None,s2003-eth3:None,s2003-eth4:None pid=28278> 
+
+Level 25:mininet:<OVSSwitch s2004: lo:127.0.0.1,s2004-eth1:None,s2004-eth2:None,s2004-eth3:None,s2004-eth4:None pid=28281> 
+
+Level 25:mininet:<OVSSwitch s2005: lo:127.0.0.1,s2005-eth1:None,s2005-eth2:None,s2005-eth3:None,s2005-eth4:None pid=28284> 
+
+Level 25:mininet:<OVSSwitch s2006: lo:127.0.0.1,s2006-eth1:None,s2006-eth2:None,s2006-eth3:None,s2006-eth4:None pid=28287> 
+
+Level 25:mininet:<OVSSwitch s2007: lo:127.0.0.1,s2007-eth1:None,s2007-eth2:None,s2007-eth3:None,s2007-eth4:None pid=28290> 
+
+Level 25:mininet:<OVSSwitch s2008: lo:127.0.0.1,s2008-eth1:None,s2008-eth2:None,s2008-eth3:None,s2008-eth4:None pid=28293> 
+
+Level 25:mininet:<OVSSwitch s3001: lo:127.0.0.1,s3001-eth1:None,s3001-eth2:None,s3001-eth3:None,s3001-eth4:None pid=28296> 
+
+Level 25:mininet:<OVSSwitch s3002: lo:127.0.0.1,s3002-eth1:None,s3002-eth2:None,s3002-eth3:None,s3002-eth4:None pid=28299> 
+
+Level 25:mininet:<OVSSwitch s3003: lo:127.0.0.1,s3003-eth1:None,s3003-eth2:None,s3003-eth3:None,s3003-eth4:None pid=28302> 
+
+Level 25:mininet:<OVSSwitch s3004: lo:127.0.0.1,s3004-eth1:None,s3004-eth2:None,s3004-eth3:None,s3004-eth4:None pid=28305> 
+
+Level 25:mininet:<OVSSwitch s3005: lo:127.0.0.1,s3005-eth1:None,s3005-eth2:None,s3005-eth3:None,s3005-eth4:None pid=28308> 
+
+Level 25:mininet:<OVSSwitch s3006: lo:127.0.0.1,s3006-eth1:None,s3006-eth2:None,s3006-eth3:None,s3006-eth4:None pid=28311> 
+
+Level 25:mininet:<OVSSwitch s3007: lo:127.0.0.1,s3007-eth1:None,s3007-eth2:None,s3007-eth3:None,s3007-eth4:None pid=28314> 
+
+Level 25:mininet:<OVSSwitch s3008: lo:127.0.0.1,s3008-eth1:None,s3008-eth2:None,s3008-eth3:None,s3008-eth4:None pid=28317> 
+
+Level 25:mininet:<Controller c0: 127.0.0.1:6653 pid=28218> 
+
+Level 25:mininet:s1001-eth1<->s2001-eth1 (OK OK) 
+
+Level 25:mininet:s1001-eth2<->s2003-eth1 (OK OK) 
+
+Level 25:mininet:s1001-eth3<->s2005-eth1 (OK OK) 
+
+Level 25:mininet:s1001-eth4<->s2007-eth1 (OK OK) 
+
+Level 25:mininet:s1002-eth1<->s2001-eth2 (OK OK) 
+
+Level 25:mininet:s1002-eth2<->s2003-eth2 (OK OK) 
+
+Level 25:mininet:s1002-eth3<->s2005-eth2 (OK OK) 
+
+Level 25:mininet:s1002-eth4<->s2007-eth2 (OK OK) 
+
+Level 25:mininet:s1003-eth1<->s2002-eth1 (OK OK) 
+
+Level 25:mininet:s1003-eth2<->s2004-eth1 (OK OK) 
+
+Level 25:mininet:s1003-eth3<->s2006-eth1 (OK OK) 
+
+Level 25:mininet:s1003-eth4<->s2008-eth1 (OK OK) 
+
+Level 25:mininet:s1004-eth1<->s2002-eth2 (OK OK) 
+
+Level 25:mininet:s1004-eth2<->s2004-eth2 (OK OK) 
+
+Level 25:mininet:s1004-eth3<->s2006-eth2 (OK OK) 
+
+Level 25:mininet:s1004-eth4<->s2008-eth2 (OK OK) 
+
+Level 25:mininet:s2001-eth3<->s3001-eth1 (OK OK) 
+
+Level 25:mininet:s2001-eth4<->s3002-eth1 (OK OK) 
+
+Level 25:mininet:s2002-eth3<->s3001-eth2 (OK OK) 
+
+Level 25:mininet:s2002-eth4<->s3002-eth2 (OK OK) 
+
+Level 25:mininet:s2003-eth3<->s3003-eth1 (OK OK) 
+
+Level 25:mininet:s2003-eth4<->s3004-eth1 (OK OK) 
+
+Level 25:mininet:s2004-eth3<->s3003-eth2 (OK OK) 
+
+Level 25:mininet:s2004-eth4<->s3004-eth2 (OK OK) 
+
+Level 25:mininet:s2005-eth3<->s3005-eth1 (OK OK) 
+
+Level 25:mininet:s2005-eth4<->s3006-eth1 (OK OK) 
+
+Level 25:mininet:s2006-eth3<->s3005-eth2 (OK OK) 
+
+Level 25:mininet:s2006-eth4<->s3006-eth2 (OK OK) 
+
+Level 25:mininet:s2007-eth3<->s3007-eth1 (OK OK) 
+
+Level 25:mininet:s2007-eth4<->s3008-eth1 (OK OK) 
+
+Level 25:mininet:s2008-eth3<->s3007-eth2 (OK OK) 
+
+Level 25:mininet:s2008-eth4<->s3008-eth2 (OK OK) 
+
+Level 25:mininet:s3001-eth3<->h001-eth0 (OK OK) 
+
+Level 25:mininet:s3001-eth4<->h002-eth0 (OK OK) 
+
+Level 25:mininet:s3002-eth3<->h003-eth0 (OK OK) 
+
+Level 25:mininet:s3002-eth4<->h004-eth0 (OK OK) 
+
+Level 25:mininet:s3003-eth3<->h005-eth0 (OK OK) 
+
+Level 25:mininet:s3003-eth4<->h006-eth0 (OK OK) 
+
+Level 25:mininet:s3004-eth3<->h007-eth0 (OK OK) 
+
+Level 25:mininet:s3004-eth4<->h008-eth0 (OK OK) 
+
+Level 25:mininet:s3005-eth3<->h009-eth0 (OK OK) 
+
+Level 25:mininet:s3005-eth4<->h010-eth0 (OK OK) 
+
+Level 25:mininet:s3006-eth3<->h011-eth0 (OK OK) 
+
+Level 25:mininet:s3006-eth4<->h012-eth0 (OK OK) 
+
+Level 25:mininet:s3007-eth3<->h013-eth0 (OK OK) 
+
+Level 25:mininet:s3007-eth4<->h014-eth0 (OK OK) 
+
+Level 25:mininet:s3008-eth3<->h015-eth0 (OK OK) 
+
+Level 25:mininet:s3008-eth4<->h016-eth0 (OK OK) 
+
+INFO:mininet:*** Stopping 1 controllers
+
+INFO:mininet:c0 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 48 links
+
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:.
+INFO:mininet:
+
+INFO:mininet:*** Stopping 20 switches
+
+INFO:mininet:s1001 
+INFO:mininet:s1002 
+INFO:mininet:s1003 
+INFO:mininet:s1004 
+INFO:mininet:s2001 
+INFO:mininet:s2002 
+INFO:mininet:s2003 
+INFO:mininet:s2004 
+INFO:mininet:s2005 
+INFO:mininet:s2006 
+INFO:mininet:s2007 
+INFO:mininet:s2008 
+INFO:mininet:s3001 
+INFO:mininet:s3002 
+INFO:mininet:s3003 
+INFO:mininet:s3004 
+INFO:mininet:s3005 
+INFO:mininet:s3006 
+INFO:mininet:s3007 
+INFO:mininet:s3008 
+INFO:mininet:
+
+INFO:mininet:*** Stopping 16 hosts
+
+INFO:mininet:h001 
+INFO:mininet:h002 
+INFO:mininet:h003 
+INFO:mininet:h004 
+INFO:mininet:h005 
+INFO:mininet:h006 
+INFO:mininet:h007 
+INFO:mininet:h008 
+INFO:mininet:h009 
+INFO:mininet:h010 
+INFO:mininet:h011 
+INFO:mininet:h012 
+INFO:mininet:h013 
+INFO:mininet:h014 
+INFO:mininet:h015 
+INFO:mininet:h016 
+INFO:mininet:
+*** Done
+
+INFO:mininet:completed in 140.295 seconds
+
