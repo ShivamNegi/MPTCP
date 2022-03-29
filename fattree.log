@@ -1,229 +1,542 @@
-INFO:mininet:*** Creating network
+Level 25:mininet:available nodes are: 
+c0 h0 h1 h10 h11 h12 h13 h14 h15 h2 h3 h4 h5 h6 h7 h8 h9 s0 s1 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s2 s3 s4 s5 s6 s7 s8 s9
 
-INFO:mininet:*** Adding controller
+ERROR:mininet:*** Unknown command: hosts
 
-INFO:mininet:*** Adding hosts:
+ERROR:mininet:*** Unknown command: host
 
-INFO:mininet:h001 
-INFO:mininet:h002 
-INFO:mininet:h003 
-INFO:mininet:h004 
-INFO:mininet:h005 
-INFO:mininet:h006 
-INFO:mininet:h007 
-INFO:mininet:h008 
-INFO:mininet:h009 
-INFO:mininet:h010 
-INFO:mininet:h011 
-INFO:mininet:h012 
-INFO:mininet:h013 
-INFO:mininet:h014 
-INFO:mininet:h015 
-INFO:mininet:h016 
-INFO:mininet:
-*** Adding switches:
+Level 25:mininet:h0-eth0<->s17-eth2 (OK OK) 
 
-INFO:mininet:s1001 
-INFO:mininet:s1002 
-INFO:mininet:s1003 
-INFO:mininet:s1004 
-INFO:mininet:s2001 
-INFO:mininet:s2002 
-INFO:mininet:s2003 
-INFO:mininet:s2004 
-INFO:mininet:s2005 
-INFO:mininet:s2006 
-INFO:mininet:s2007 
-INFO:mininet:s2008 
-INFO:mininet:s3001 
-INFO:mininet:s3002 
-INFO:mininet:s3003 
-INFO:mininet:s3004 
-INFO:mininet:s3005 
-INFO:mininet:s3006 
-INFO:mininet:s3007 
-INFO:mininet:s3008 
-INFO:mininet:
-*** Adding links:
+Level 25:mininet:h1-eth0<->s4-eth1 (OK OK) 
 
-INFO:mininet:(s1001, s2001) 
-INFO:mininet:(s1001, s2003) 
-INFO:mininet:(s1001, s2005) 
-INFO:mininet:(s1001, s2007) 
-INFO:mininet:(s1002, s2001) 
-INFO:mininet:(s1002, s2003) 
-INFO:mininet:(s1002, s2005) 
-INFO:mininet:(s1002, s2007) 
-INFO:mininet:(s1003, s2002) 
-INFO:mininet:(s1003, s2004) 
-INFO:mininet:(s1003, s2006) 
-INFO:mininet:(s1003, s2008) 
-INFO:mininet:(s1004, s2002) 
-INFO:mininet:(s1004, s2004) 
-INFO:mininet:(s1004, s2006) 
-INFO:mininet:(s1004, s2008) 
-INFO:mininet:(s2001, s3001) 
-INFO:mininet:(s2001, s3002) 
-INFO:mininet:(s2002, s3001) 
-INFO:mininet:(s2002, s3002) 
-INFO:mininet:(s2003, s3003) 
-INFO:mininet:(s2003, s3004) 
-INFO:mininet:(s2004, s3003) 
-INFO:mininet:(s2004, s3004) 
-INFO:mininet:(s2005, s3005) 
-INFO:mininet:(s2005, s3006) 
-INFO:mininet:(s2006, s3005) 
-INFO:mininet:(s2006, s3006) 
-INFO:mininet:(s2007, s3007) 
-INFO:mininet:(s2007, s3008) 
-INFO:mininet:(s2008, s3007) 
-INFO:mininet:(s2008, s3008) 
-INFO:mininet:(s3001, h001) 
-INFO:mininet:(s3001, h002) 
-INFO:mininet:(s3002, h003) 
-INFO:mininet:(s3002, h004) 
-INFO:mininet:(s3003, h005) 
-INFO:mininet:(s3003, h006) 
-INFO:mininet:(s3004, h007) 
-INFO:mininet:(s3004, h008) 
-INFO:mininet:(s3005, h009) 
-INFO:mininet:(s3005, h010) 
-INFO:mininet:(s3006, h011) 
-INFO:mininet:(s3006, h012) 
-INFO:mininet:(s3007, h013) 
-INFO:mininet:(s3007, h014) 
-INFO:mininet:(s3008, h015) 
-INFO:mininet:(s3008, h016) 
-INFO:mininet:
+Level 25:mininet:h2-eth0<->s9-eth1 (OK OK) 
 
-INFO:mininet:*** Configuring hosts
+Level 25:mininet:h3-eth0<->s18-eth1 (OK OK) 
 
-INFO:mininet:h001 
-INFO:mininet:h002 
-INFO:mininet:h003 
-INFO:mininet:h004 
-INFO:mininet:h005 
-INFO:mininet:h006 
-INFO:mininet:h007 
-INFO:mininet:h008 
-INFO:mininet:h009 
-INFO:mininet:h010 
-INFO:mininet:h011 
-INFO:mininet:h012 
-INFO:mininet:h013 
-INFO:mininet:h014 
-INFO:mininet:h015 
-INFO:mininet:h016 
-INFO:mininet:
+Level 25:mininet:h4-eth0<->s3-eth1 (OK OK) 
 
-INFO:mininet:*** Starting controller
+Level 25:mininet:h5-eth0<->s14-eth1 (OK OK) 
 
-INFO:mininet:c0 
-INFO:mininet:
+Level 25:mininet:h6-eth0<->s6-eth1 (OK OK) 
 
-INFO:mininet:*** Starting 20 switches
+Level 25:mininet:h7-eth0<->s8-eth1 (OK OK) 
 
-INFO:mininet:s1001 
-INFO:mininet:s1002 
-INFO:mininet:s1003 
-INFO:mininet:s1004 
-INFO:mininet:s2001 
-INFO:mininet:s2002 
-INFO:mininet:s2003 
-INFO:mininet:s2004 
-INFO:mininet:s2005 
-INFO:mininet:s2006 
-INFO:mininet:s2007 
-INFO:mininet:s2008 
-INFO:mininet:s3001 
-INFO:mininet:s3002 
-INFO:mininet:s3003 
-INFO:mininet:s3004 
-INFO:mininet:s3005 
-INFO:mininet:s3006 
-INFO:mininet:s3007 
-INFO:mininet:s3008 
-INFO:mininet:...
-INFO:mininet:
+Level 25:mininet:h8-eth0<->s17-eth1 (OK OK) 
 
-INFO:mininet:*** Starting CLI:
+Level 25:mininet:h9-eth0<->s15-eth1 (OK OK) 
+
+Level 25:mininet:h10-eth1<->s9-eth16 (OK OK) 
+
+Level 25:mininet:h11-eth1<->s10-eth15 (OK OK) 
+
+Level 25:mininet:h12-eth1<->s11-eth16 (OK OK) 
+
+Level 25:mininet:h13-eth1<->s4-eth16 (OK OK) 
+
+Level 25:mininet:h14-eth1<->s7-eth16 (OK OK) 
+
+Level 25:mininet:h15-eth1<->s10-eth16 (OK OK) 
+
+Level 25:mininet:s0-eth5<->s1-eth12 (OK OK) 
+
+Level 25:mininet:s0-eth6<->s2-eth12 (OK OK) 
+
+Level 25:mininet:s0-eth7<->s3-eth12 (OK OK) 
+
+Level 25:mininet:s0-eth8<->s4-eth5 (OK OK) 
+
+Level 25:mininet:s0-eth9<->s5-eth5 (OK OK) 
+
+Level 25:mininet:s0-eth10<->s6-eth5 (OK OK) 
+
+Level 25:mininet:s0-eth11<->s7-eth5 (OK OK) 
+
+Level 25:mininet:s0-eth12<->s8-eth13 (OK OK) 
+
+Level 25:mininet:s1-eth4<->s0-eth4 (OK OK) 
+
+Level 25:mininet:s1-eth5<->s2-eth11 (OK OK) 
+
+Level 25:mininet:s1-eth6<->s3-eth11 (OK OK) 
+
+Level 25:mininet:s1-eth7<->s4-eth4 (OK OK) 
+
+Level 25:mininet:s1-eth8<->s5-eth4 (OK OK) 
+
+Level 25:mininet:s1-eth9<->s6-eth4 (OK OK) 
+
+Level 25:mininet:s1-eth10<->s7-eth4 (OK OK) 
+
+Level 25:mininet:s1-eth11<->s8-eth12 (OK OK) 
+
+Level 25:mininet:s2-eth3<->s0-eth3 (OK OK) 
+
+Level 25:mininet:s2-eth4<->s1-eth3 (OK OK) 
+
+Level 25:mininet:s2-eth5<->s3-eth10 (OK OK) 
+
+Level 25:mininet:s2-eth6<->s4-eth3 (OK OK) 
+
+Level 25:mininet:s2-eth7<->s5-eth3 (OK OK) 
+
+Level 25:mininet:s2-eth8<->s6-eth3 (OK OK) 
+
+Level 25:mininet:s2-eth9<->s7-eth3 (OK OK) 
+
+Level 25:mininet:s2-eth10<->s8-eth11 (OK OK) 
+
+Level 25:mininet:s3-eth2<->h4-eth1 (OK OK) 
+
+Level 25:mininet:s3-eth3<->s0-eth2 (OK OK) 
+
+Level 25:mininet:s3-eth4<->s1-eth2 (OK OK) 
+
+Level 25:mininet:s3-eth5<->s2-eth2 (OK OK) 
+
+Level 25:mininet:s3-eth6<->s4-eth2 (OK OK) 
+
+Level 25:mininet:s3-eth7<->s5-eth2 (OK OK) 
+
+Level 25:mininet:s3-eth8<->s6-eth2 (OK OK) 
+
+Level 25:mininet:s3-eth9<->s7-eth2 (OK OK) 
+
+Level 25:mininet:s4-eth8<->h1-eth1 (OK OK) 
+
+Level 25:mininet:s4-eth9<->h13-eth0 (OK OK) 
+
+Level 25:mininet:s4-eth10<->s0-eth16 (OK OK) 
+
+Level 25:mininet:s4-eth11<->s1-eth16 (OK OK) 
+
+Level 25:mininet:s4-eth12<->s2-eth16 (OK OK) 
+
+Level 25:mininet:s4-eth13<->s3-eth16 (OK OK) 
+
+Level 25:mininet:s4-eth14<->s5-eth16 (OK OK) 
+
+Level 25:mininet:s4-eth15<->s6-eth16 (OK OK) 
+
+Level 25:mininet:s5-eth8<->s0-eth15 (OK OK) 
+
+Level 25:mininet:s5-eth9<->s1-eth15 (OK OK) 
+
+Level 25:mininet:s5-eth10<->s2-eth15 (OK OK) 
+
+Level 25:mininet:s5-eth11<->s3-eth15 (OK OK) 
+
+Level 25:mininet:s5-eth12<->s4-eth7 (OK OK) 
+
+Level 25:mininet:s5-eth13<->s6-eth15 (OK OK) 
+
+Level 25:mininet:s5-eth14<->s7-eth15 (OK OK) 
+
+Level 25:mininet:s5-eth15<->s8-eth15 (OK OK) 
+
+Level 25:mininet:s6-eth7<->h6-eth1 (OK OK) 
+
+Level 25:mininet:s6-eth8<->s0-eth14 (OK OK) 
+
+Level 25:mininet:s6-eth9<->s1-eth14 (OK OK) 
+
+Level 25:mininet:s6-eth10<->s2-eth14 (OK OK) 
+
+Level 25:mininet:s6-eth11<->s3-eth14 (OK OK) 
+
+Level 25:mininet:s6-eth12<->s4-eth6 (OK OK) 
+
+Level 25:mininet:s6-eth13<->s5-eth7 (OK OK) 
+
+Level 25:mininet:s6-eth14<->s7-eth14 (OK OK) 
+
+Level 25:mininet:s7-eth6<->h14-eth0 (OK OK) 
+
+Level 25:mininet:s7-eth7<->s0-eth13 (OK OK) 
+
+Level 25:mininet:s7-eth8<->s1-eth13 (OK OK) 
+
+Level 25:mininet:s7-eth9<->s2-eth13 (OK OK) 
+
+Level 25:mininet:s7-eth10<->s3-eth13 (OK OK) 
+
+Level 25:mininet:s7-eth11<->s5-eth6 (OK OK) 
+
+Level 25:mininet:s7-eth12<->s6-eth6 (OK OK) 
+
+Level 25:mininet:s7-eth13<->s8-eth14 (OK OK) 
+
+Level 25:mininet:s8-eth3<->h7-eth1 (OK OK) 
+
+Level 25:mininet:s8-eth4<->s0-eth1 (OK OK) 
+
+Level 25:mininet:s8-eth5<->s1-eth1 (OK OK) 
+
+Level 25:mininet:s8-eth6<->s2-eth1 (OK OK) 
+
+Level 25:mininet:s8-eth7<->s5-eth1 (OK OK) 
+
+Level 25:mininet:s8-eth8<->s7-eth1 (OK OK) 
+
+Level 25:mininet:s8-eth9<->s9-eth10 (OK OK) 
+
+Level 25:mininet:s8-eth10<->s10-eth2 (OK OK) 
+
+Level 25:mininet:s9-eth2<->h2-eth1 (OK OK) 
+
+Level 25:mininet:s9-eth3<->h10-eth0 (OK OK) 
+
+Level 25:mininet:s9-eth4<->s8-eth2 (OK OK) 
+
+Level 25:mininet:s9-eth5<->s10-eth1 (OK OK) 
+
+Level 25:mininet:s9-eth6<->s11-eth1 (OK OK) 
+
+Level 25:mininet:s9-eth7<->s12-eth1 (OK OK) 
+
+Level 25:mininet:s9-eth8<->s13-eth1 (OK OK) 
+
+Level 25:mininet:s9-eth9<->s14-eth2 (OK OK) 
+
+Level 25:mininet:s10-eth6<->h11-eth0 (OK OK) 
+
+Level 25:mininet:s10-eth7<->h15-eth0 (OK OK) 
+
+Level 25:mininet:s10-eth8<->s8-eth16 (OK OK) 
+
+Level 25:mininet:s10-eth9<->s9-eth14 (OK OK) 
+
+Level 25:mininet:s10-eth10<->s11-eth12 (OK OK) 
+
+Level 25:mininet:s10-eth11<->s12-eth12 (OK OK) 
+
+Level 25:mininet:s10-eth12<->s13-eth12 (OK OK) 
+
+Level 25:mininet:s10-eth13<->s14-eth6 (OK OK) 
+
+Level 25:mininet:s11-eth4<->h12-eth0 (OK OK) 
+
+Level 25:mininet:s11-eth5<->s9-eth13 (OK OK) 
+
+Level 25:mininet:s11-eth6<->s10-eth5 (OK OK) 
+
+Level 25:mininet:s11-eth7<->s12-eth11 (OK OK) 
+
+Level 25:mininet:s11-eth8<->s13-eth11 (OK OK) 
+
+Level 25:mininet:s11-eth9<->s14-eth5 (OK OK) 
+
+Level 25:mininet:s11-eth10<->s15-eth5 (OK OK) 
+
+Level 25:mininet:s11-eth11<->s16-eth5 (OK OK) 
+
+Level 25:mininet:s12-eth3<->s9-eth12 (OK OK) 
+
+Level 25:mininet:s12-eth4<->s10-eth4 (OK OK) 
+
+Level 25:mininet:s12-eth5<->s11-eth3 (OK OK) 
+
+Level 25:mininet:s12-eth6<->s13-eth10 (OK OK) 
+
+Level 25:mininet:s12-eth7<->s14-eth4 (OK OK) 
+
+Level 25:mininet:s12-eth8<->s15-eth4 (OK OK) 
+
+Level 25:mininet:s12-eth9<->s16-eth4 (OK OK) 
+
+Level 25:mininet:s12-eth10<->s17-eth6 (OK OK) 
+
+Level 25:mininet:s13-eth2<->s9-eth11 (OK OK) 
+
+Level 25:mininet:s13-eth3<->s10-eth3 (OK OK) 
+
+Level 25:mininet:s13-eth4<->s11-eth2 (OK OK) 
+
+Level 25:mininet:s13-eth5<->s12-eth2 (OK OK) 
+
+Level 25:mininet:s13-eth6<->s14-eth3 (OK OK) 
+
+Level 25:mininet:s13-eth7<->s15-eth3 (OK OK) 
+
+Level 25:mininet:s13-eth8<->s16-eth3 (OK OK) 
+
+Level 25:mininet:s13-eth9<->s17-eth5 (OK OK) 
+
+Level 25:mininet:s14-eth9<->h5-eth1 (OK OK) 
+
+Level 25:mininet:s14-eth10<->s9-eth15 (OK OK) 
+
+Level 25:mininet:s14-eth11<->s10-eth14 (OK OK) 
+
+Level 25:mininet:s14-eth12<->s11-eth15 (OK OK) 
+
+Level 25:mininet:s14-eth13<->s12-eth16 (OK OK) 
+
+Level 25:mininet:s14-eth14<->s13-eth16 (OK OK) 
+
+Level 25:mininet:s14-eth15<->s15-eth16 (OK OK) 
+
+Level 25:mininet:s14-eth16<->s16-eth16 (OK OK) 
+
+Level 25:mininet:s15-eth8<->h9-eth1 (OK OK) 
+
+Level 25:mininet:s15-eth9<->s11-eth14 (OK OK) 
+
+Level 25:mininet:s15-eth10<->s12-eth15 (OK OK) 
+
+Level 25:mininet:s15-eth11<->s13-eth15 (OK OK) 
+
+Level 25:mininet:s15-eth12<->s14-eth8 (OK OK) 
+
+Level 25:mininet:s15-eth13<->s16-eth15 (OK OK) 
+
+Level 25:mininet:s15-eth14<->s17-eth16 (OK OK) 
+
+Level 25:mininet:s15-eth15<->s18-eth10 (OK OK) 
+
+Level 25:mininet:s16-eth7<->s11-eth13 (OK OK) 
+
+Level 25:mininet:s16-eth8<->s12-eth14 (OK OK) 
+
+Level 25:mininet:s16-eth9<->s13-eth14 (OK OK) 
+
+Level 25:mininet:s16-eth10<->s14-eth7 (OK OK) 
+
+Level 25:mininet:s16-eth11<->s15-eth7 (OK OK) 
+
+Level 25:mininet:s16-eth12<->s17-eth15 (OK OK) 
+
+Level 25:mininet:s16-eth13<->s18-eth9 (OK OK) 
+
+Level 25:mininet:s16-eth14<->s19-eth6 (OK OK) 
+
+Level 25:mininet:s17-eth7<->h0-eth1 (OK OK) 
+
+Level 25:mininet:s17-eth8<->h8-eth1 (OK OK) 
+
+Level 25:mininet:s17-eth9<->s12-eth13 (OK OK) 
+
+Level 25:mininet:s17-eth10<->s13-eth13 (OK OK) 
+
+Level 25:mininet:s17-eth11<->s15-eth6 (OK OK) 
+
+Level 25:mininet:s17-eth12<->s16-eth6 (OK OK) 
+
+Level 25:mininet:s17-eth13<->s18-eth8 (OK OK) 
+
+Level 25:mininet:s17-eth14<->s19-eth5 (OK OK) 
+
+Level 25:mininet:s18-eth3<->h3-eth1 (OK OK) 
+
+Level 25:mininet:s18-eth4<->s15-eth2 (OK OK) 
+
+Level 25:mininet:s18-eth5<->s16-eth2 (OK OK) 
+
+Level 25:mininet:s18-eth6<->s17-eth4 (OK OK) 
+
+Level 25:mininet:s18-eth7<->s19-eth4 (OK OK) 
+
+Level 25:mininet:s19-eth1<->s16-eth1 (OK OK) 
+
+Level 25:mininet:s19-eth2<->s17-eth3 (OK OK) 
+
+Level 25:mininet:s19-eth3<->s18-eth2 (OK OK) 
+
+Level 25:mininet:<CPULimitedHost h0: h0-eth0:10.1.0.0,h0-eth1:None pid=64868> 
+
+Level 25:mininet:<CPULimitedHost h1: h1-eth0:10.1.1.0,h1-eth1:None pid=64875> 
+
+Level 25:mininet:<CPULimitedHost h2: h2-eth0:10.1.2.0,h2-eth1:None pid=64879> 
+
+Level 25:mininet:<CPULimitedHost h3: h3-eth0:10.1.3.0,h3-eth1:None pid=64883> 
+
+Level 25:mininet:<CPULimitedHost h4: h4-eth0:10.1.4.0,h4-eth1:None pid=64887> 
+
+Level 25:mininet:<CPULimitedHost h5: h5-eth0:10.1.5.0,h5-eth1:None pid=64891> 
+
+Level 25:mininet:<CPULimitedHost h6: h6-eth0:10.1.6.0,h6-eth1:None pid=64895> 
+
+Level 25:mininet:<CPULimitedHost h7: h7-eth0:10.1.7.0,h7-eth1:None pid=64899> 
+
+Level 25:mininet:<CPULimitedHost h8: h8-eth0:10.1.8.0,h8-eth1:None pid=64903> 
+
+Level 25:mininet:<CPULimitedHost h9: h9-eth0:10.1.9.0,h9-eth1:None pid=64907> 
+
+Level 25:mininet:<CPULimitedHost h10: h10-eth0:10.1.10.0,h10-eth1:None pid=64911> 
+
+Level 25:mininet:<CPULimitedHost h11: h11-eth0:10.1.11.0,h11-eth1:None pid=64915> 
+
+Level 25:mininet:<CPULimitedHost h12: h12-eth0:10.1.12.0,h12-eth1:None pid=64919> 
+
+Level 25:mininet:<CPULimitedHost h13: h13-eth0:10.1.13.0,h13-eth1:None pid=64923> 
+
+Level 25:mininet:<CPULimitedHost h14: h14-eth0:10.1.14.0,h14-eth1:None pid=64927> 
+
+Level 25:mininet:<CPULimitedHost h15: h15-eth0:10.1.15.0,h15-eth1:None pid=64931> 
+
+Level 25:mininet:<OVSSwitch s0: lo:127.0.0.1,s0-eth1:None,s0-eth2:None,s0-eth3:None,s0-eth4:None,s0-eth5:None,s0-eth6:None,s0-eth7:None,s0-eth8:None,s0-eth9:None,s0-eth10:None,s0-eth11:None,s0-eth12:None,s0-eth13:None,s0-eth14:None,s0-eth15:None,s0-eth16:None pid=64938> 
+
+Level 25:mininet:<OVSSwitch s1: lo:127.0.0.1,s1-eth1:None,s1-eth2:None,s1-eth3:None,s1-eth4:None,s1-eth5:None,s1-eth6:None,s1-eth7:None,s1-eth8:None,s1-eth9:None,s1-eth10:None,s1-eth11:None,s1-eth12:None,s1-eth13:None,s1-eth14:None,s1-eth15:None,s1-eth16:None pid=64941> 
+
+Level 25:mininet:<OVSSwitch s2: lo:127.0.0.1,s2-eth1:None,s2-eth2:None,s2-eth3:None,s2-eth4:None,s2-eth5:None,s2-eth6:None,s2-eth7:None,s2-eth8:None,s2-eth9:None,s2-eth10:None,s2-eth11:None,s2-eth12:None,s2-eth13:None,s2-eth14:None,s2-eth15:None,s2-eth16:None pid=64944> 
+
+Level 25:mininet:<OVSSwitch s3: lo:127.0.0.1,s3-eth1:None,s3-eth2:None,s3-eth3:None,s3-eth4:None,s3-eth5:None,s3-eth6:None,s3-eth7:None,s3-eth8:None,s3-eth9:None,s3-eth10:None,s3-eth11:None,s3-eth12:None,s3-eth13:None,s3-eth14:None,s3-eth15:None,s3-eth16:None pid=64947> 
+
+Level 25:mininet:<OVSSwitch s4: lo:127.0.0.1,s4-eth1:None,s4-eth2:None,s4-eth3:None,s4-eth4:None,s4-eth5:None,s4-eth6:None,s4-eth7:None,s4-eth8:None,s4-eth9:None,s4-eth10:None,s4-eth11:None,s4-eth12:None,s4-eth13:None,s4-eth14:None,s4-eth15:None,s4-eth16:None pid=64950> 
+
+Level 25:mininet:<OVSSwitch s5: lo:127.0.0.1,s5-eth1:None,s5-eth2:None,s5-eth3:None,s5-eth4:None,s5-eth5:None,s5-eth6:None,s5-eth7:None,s5-eth8:None,s5-eth9:None,s5-eth10:None,s5-eth11:None,s5-eth12:None,s5-eth13:None,s5-eth14:None,s5-eth15:None,s5-eth16:None pid=64953> 
+
+Level 25:mininet:<OVSSwitch s6: lo:127.0.0.1,s6-eth1:None,s6-eth2:None,s6-eth3:None,s6-eth4:None,s6-eth5:None,s6-eth6:None,s6-eth7:None,s6-eth8:None,s6-eth9:None,s6-eth10:None,s6-eth11:None,s6-eth12:None,s6-eth13:None,s6-eth14:None,s6-eth15:None,s6-eth16:None pid=64956> 
+
+Level 25:mininet:<OVSSwitch s7: lo:127.0.0.1,s7-eth1:None,s7-eth2:None,s7-eth3:None,s7-eth4:None,s7-eth5:None,s7-eth6:None,s7-eth7:None,s7-eth8:None,s7-eth9:None,s7-eth10:None,s7-eth11:None,s7-eth12:None,s7-eth13:None,s7-eth14:None,s7-eth15:None,s7-eth16:None pid=64959> 
+
+Level 25:mininet:<OVSSwitch s8: lo:127.0.0.1,s8-eth1:None,s8-eth2:None,s8-eth3:None,s8-eth4:None,s8-eth5:None,s8-eth6:None,s8-eth7:None,s8-eth8:None,s8-eth9:None,s8-eth10:None,s8-eth11:None,s8-eth12:None,s8-eth13:None,s8-eth14:None,s8-eth15:None,s8-eth16:None pid=64962> 
+
+Level 25:mininet:<OVSSwitch s9: lo:127.0.0.1,s9-eth1:None,s9-eth2:None,s9-eth3:None,s9-eth4:None,s9-eth5:None,s9-eth6:None,s9-eth7:None,s9-eth8:None,s9-eth9:None,s9-eth10:None,s9-eth11:None,s9-eth12:None,s9-eth13:None,s9-eth14:None,s9-eth15:None,s9-eth16:None pid=64965> 
+
+Level 25:mininet:<OVSSwitch s10: lo:127.0.0.1,s10-eth1:None,s10-eth2:None,s10-eth3:None,s10-eth4:None,s10-eth5:None,s10-eth6:None,s10-eth7:None,s10-eth8:None,s10-eth9:None,s10-eth10:None,s10-eth11:None,s10-eth12:None,s10-eth13:None,s10-eth14:None,s10-eth15:None,s10-eth16:None pid=64968> 
+
+Level 25:mininet:<OVSSwitch s11: lo:127.0.0.1,s11-eth1:None,s11-eth2:None,s11-eth3:None,s11-eth4:None,s11-eth5:None,s11-eth6:None,s11-eth7:None,s11-eth8:None,s11-eth9:None,s11-eth10:None,s11-eth11:None,s11-eth12:None,s11-eth13:None,s11-eth14:None,s11-eth15:None,s11-eth16:None pid=64971> 
+
+Level 25:mininet:<OVSSwitch s12: lo:127.0.0.1,s12-eth1:None,s12-eth2:None,s12-eth3:None,s12-eth4:None,s12-eth5:None,s12-eth6:None,s12-eth7:None,s12-eth8:None,s12-eth9:None,s12-eth10:None,s12-eth11:None,s12-eth12:None,s12-eth13:None,s12-eth14:None,s12-eth15:None,s12-eth16:None pid=64974> 
+
+Level 25:mininet:<OVSSwitch s13: lo:127.0.0.1,s13-eth1:None,s13-eth2:None,s13-eth3:None,s13-eth4:None,s13-eth5:None,s13-eth6:None,s13-eth7:None,s13-eth8:None,s13-eth9:None,s13-eth10:None,s13-eth11:None,s13-eth12:None,s13-eth13:None,s13-eth14:None,s13-eth15:None,s13-eth16:None pid=64977> 
+
+Level 25:mininet:<OVSSwitch s14: lo:127.0.0.1,s14-eth1:None,s14-eth2:None,s14-eth3:None,s14-eth4:None,s14-eth5:None,s14-eth6:None,s14-eth7:None,s14-eth8:None,s14-eth9:None,s14-eth10:None,s14-eth11:None,s14-eth12:None,s14-eth13:None,s14-eth14:None,s14-eth15:None,s14-eth16:None pid=64980> 
+
+Level 25:mininet:<OVSSwitch s15: lo:127.0.0.1,s15-eth1:None,s15-eth2:None,s15-eth3:None,s15-eth4:None,s15-eth5:None,s15-eth6:None,s15-eth7:None,s15-eth8:None,s15-eth9:None,s15-eth10:None,s15-eth11:None,s15-eth12:None,s15-eth13:None,s15-eth14:None,s15-eth15:None,s15-eth16:None pid=64983> 
+
+Level 25:mininet:<OVSSwitch s16: lo:127.0.0.1,s16-eth1:None,s16-eth2:None,s16-eth3:None,s16-eth4:None,s16-eth5:None,s16-eth6:None,s16-eth7:None,s16-eth8:None,s16-eth9:None,s16-eth10:None,s16-eth11:None,s16-eth12:None,s16-eth13:None,s16-eth14:None,s16-eth15:None,s16-eth16:None pid=64986> 
+
+Level 25:mininet:<OVSSwitch s17: lo:127.0.0.1,s17-eth1:None,s17-eth2:None,s17-eth3:None,s17-eth4:None,s17-eth5:None,s17-eth6:None,s17-eth7:None,s17-eth8:None,s17-eth9:None,s17-eth10:None,s17-eth11:None,s17-eth12:None,s17-eth13:None,s17-eth14:None,s17-eth15:None,s17-eth16:None pid=64989> 
+
+Level 25:mininet:<OVSSwitch s18: lo:127.0.0.1,s18-eth1:None,s18-eth2:None,s18-eth3:None,s18-eth4:None,s18-eth5:None,s18-eth6:None,s18-eth7:None,s18-eth8:None,s18-eth9:None,s18-eth10:None pid=64992> 
+
+Level 25:mininet:<OVSSwitch s19: lo:127.0.0.1,s19-eth1:None,s19-eth2:None,s19-eth3:None,s19-eth4:None,s19-eth5:None,s19-eth6:None pid=64995> 
+
+Level 25:mininet:<Controller c0: 127.0.0.1:6653 pid=64861> 
+
+WARNING:mininet:(c0 exited - ignoring cmd('controller ptcp:6653 1>/tmp/c0.log 2>/tmp/c0.log &',))
+
+WARNING:mininet:(s0 exited - ignoring cmd('ovs-vsctl', '-- --id=@s0c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s0 -- add-br s0 -- set bridge s0 controller=[@s0c0] other_config:datapath-id=0000000000000000 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s0'))
+
+WARNING:mininet:(s1 exited - ignoring cmd('ovs-vsctl', '-- --id=@s1c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s1 -- add-br s1 -- set bridge s1 controller=[@s1c0] other_config:datapath-id=0000000000000001 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s1'))
+
+WARNING:mininet:(s2 exited - ignoring cmd('ovs-vsctl', '-- --id=@s2c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s2 -- add-br s2 -- set bridge s2 controller=[@s2c0] other_config:datapath-id=0000000000000002 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s2'))
+
+WARNING:mininet:(s3 exited - ignoring cmd('ovs-vsctl', '-- --id=@s3c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s3 -- add-br s3 -- set bridge s3 controller=[@s3c0] other_config:datapath-id=0000000000000003 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s3'))
+
+WARNING:mininet:(s4 exited - ignoring cmd('ovs-vsctl', '-- --id=@s4c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s4 -- add-br s4 -- set bridge s4 controller=[@s4c0] other_config:datapath-id=0000000000000004 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s4'))
+
+WARNING:mininet:(s5 exited - ignoring cmd('ovs-vsctl', '-- --id=@s5c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s5 -- add-br s5 -- set bridge s5 controller=[@s5c0] other_config:datapath-id=0000000000000005 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s5'))
+
+WARNING:mininet:(s6 exited - ignoring cmd('ovs-vsctl', '-- --id=@s6c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s6 -- add-br s6 -- set bridge s6 controller=[@s6c0] other_config:datapath-id=0000000000000006 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s6'))
+
+WARNING:mininet:(s7 exited - ignoring cmd('ovs-vsctl', '-- --id=@s7c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s7 -- add-br s7 -- set bridge s7 controller=[@s7c0] other_config:datapath-id=0000000000000007 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s7'))
+
+WARNING:mininet:(s8 exited - ignoring cmd('ovs-vsctl', '-- --id=@s8c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s8 -- add-br s8 -- set bridge s8 controller=[@s8c0] other_config:datapath-id=0000000000000008 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s8'))
+
+WARNING:mininet:(s9 exited - ignoring cmd('ovs-vsctl', '-- --id=@s9c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s9 -- add-br s9 -- set bridge s9 controller=[@s9c0] other_config:datapath-id=0000000000000009 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s9'))
+
+WARNING:mininet:(s10 exited - ignoring cmd('ovs-vsctl', '-- --id=@s10c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s10 -- add-br s10 -- set bridge s10 controller=[@s10c0] other_config:datapath-id=000000000000000a fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s10'))
+
+WARNING:mininet:(s11 exited - ignoring cmd('ovs-vsctl', '-- --id=@s11c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s11 -- add-br s11 -- set bridge s11 controller=[@s11c0] other_config:datapath-id=000000000000000b fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s11'))
+
+WARNING:mininet:(s12 exited - ignoring cmd('ovs-vsctl', '-- --id=@s12c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s12 -- add-br s12 -- set bridge s12 controller=[@s12c0] other_config:datapath-id=000000000000000c fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s12'))
+
+WARNING:mininet:(s13 exited - ignoring cmd('ovs-vsctl', '-- --id=@s13c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s13 -- add-br s13 -- set bridge s13 controller=[@s13c0] other_config:datapath-id=000000000000000d fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s13'))
+
+WARNING:mininet:(s14 exited - ignoring cmd('ovs-vsctl', '-- --id=@s14c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s14 -- add-br s14 -- set bridge s14 controller=[@s14c0] other_config:datapath-id=000000000000000e fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s14'))
+
+WARNING:mininet:(s15 exited - ignoring cmd('ovs-vsctl', '-- --id=@s15c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s15 -- add-br s15 -- set bridge s15 controller=[@s15c0] other_config:datapath-id=000000000000000f fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s15'))
+
+WARNING:mininet:(s16 exited - ignoring cmd('ovs-vsctl', '-- --id=@s16c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s16 -- add-br s16 -- set bridge s16 controller=[@s16c0] other_config:datapath-id=0000000000000010 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s16'))
+
+WARNING:mininet:(s17 exited - ignoring cmd('ovs-vsctl', '-- --id=@s17c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s17 -- add-br s17 -- set bridge s17 controller=[@s17c0] other_config:datapath-id=0000000000000011 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s17'))
+
+WARNING:mininet:(s18 exited - ignoring cmd('ovs-vsctl', '-- --id=@s18c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s18 -- add-br s18 -- set bridge s18 controller=[@s18c0] other_config:datapath-id=0000000000000012 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s18'))
+
+WARNING:mininet:(s19 exited - ignoring cmd('ovs-vsctl', '-- --id=@s19c0 create Controller target=\\"tcp:127.0.0.1:6653\\" max_backoff=1000 -- --if-exists del-br s19 -- add-br s19 -- set bridge s19 controller=[@s19c0] other_config:datapath-id=0000000000000013 fail_mode=secure other-config:disable-in-band=true other-config:dp-desc=s19'))
+
+WARNING:mininet:*** defaultIntf: warning: h1 has no interfaces
 
 Level 25:mininet:available nodes are: 
 c0 h001 h002 h003 h004 h005 h006 h007 h008 h009 h010 h011 h012 h013 h014 h015 h016 s1001 s1002 s1003 s1004 s2001 s2002 s2003 s2004 s2005 s2006 s2007 s2008 s3001 s3002 s3003 s3004 s3005 s3006 s3007 s3008
 
-Level 25:mininet:<Host h001: h001-eth0:10.0.0.1 pid=28225> 
+Level 25:mininet:<CPULimitedHost h001: h001-eth0:10.0.0.1 pid=91121> 
 
-Level 25:mininet:<Host h002: h002-eth0:10.0.0.2 pid=28227> 
+Level 25:mininet:<CPULimitedHost h002: h002-eth0:10.0.0.2 pid=91179> 
 
-Level 25:mininet:<Host h003: h003-eth0:10.0.0.3 pid=28229> 
+Level 25:mininet:<CPULimitedHost h003: h003-eth0:10.0.0.3 pid=91194> 
 
-Level 25:mininet:<Host h004: h004-eth0:10.0.0.4 pid=28231> 
+Level 25:mininet:<CPULimitedHost h004: h004-eth0:10.0.0.4 pid=91214> 
 
-Level 25:mininet:<Host h005: h005-eth0:10.0.0.5 pid=28233> 
+Level 25:mininet:<CPULimitedHost h005: h005-eth0:10.0.0.5 pid=91238> 
 
-Level 25:mininet:<Host h006: h006-eth0:10.0.0.6 pid=28235> 
+Level 25:mininet:<CPULimitedHost h006: h006-eth0:10.0.0.6 pid=91272> 
 
-Level 25:mininet:<Host h007: h007-eth0:10.0.0.7 pid=28237> 
+Level 25:mininet:<CPULimitedHost h007: h007-eth0:10.0.0.7 pid=91300> 
 
-Level 25:mininet:<Host h008: h008-eth0:10.0.0.8 pid=28239> 
+Level 25:mininet:<CPULimitedHost h008: h008-eth0:10.0.0.8 pid=91309> 
 
-Level 25:mininet:<Host h009: h009-eth0:10.0.0.9 pid=28241> 
+Level 25:mininet:<CPULimitedHost h009: h009-eth0:10.0.0.9 pid=91340> 
 
-Level 25:mininet:<Host h010: h010-eth0:10.0.0.10 pid=28243> 
+Level 25:mininet:<CPULimitedHost h010: h010-eth0:10.0.0.10 pid=91360> 
 
-Level 25:mininet:<Host h011: h011-eth0:10.0.0.11 pid=28245> 
+Level 25:mininet:<CPULimitedHost h011: h011-eth0:10.0.0.11 pid=91375> 
 
-Level 25:mininet:<Host h012: h012-eth0:10.0.0.12 pid=28247> 
+Level 25:mininet:<CPULimitedHost h012: h012-eth0:10.0.0.12 pid=91412> 
 
-Level 25:mininet:<Host h013: h013-eth0:10.0.0.13 pid=28249> 
+Level 25:mininet:<CPULimitedHost h013: h013-eth0:10.0.0.13 pid=91446> 
 
-Level 25:mininet:<Host h014: h014-eth0:10.0.0.14 pid=28251> 
+Level 25:mininet:<CPULimitedHost h014: h014-eth0:10.0.0.14 pid=91477> 
 
-Level 25:mininet:<Host h015: h015-eth0:10.0.0.15 pid=28253> 
+Level 25:mininet:<CPULimitedHost h015: h015-eth0:10.0.0.15 pid=91497> 
 
-Level 25:mininet:<Host h016: h016-eth0:10.0.0.16 pid=28255> 
+Level 25:mininet:<CPULimitedHost h016: h016-eth0:10.0.0.16 pid=91513> 
 
-Level 25:mininet:<OVSSwitch s1001: lo:127.0.0.1,s1001-eth1:None,s1001-eth2:None,s1001-eth3:None,s1001-eth4:None pid=28260> 
+Level 25:mininet:<OVSSwitch s1001: lo:127.0.0.1,s1001-eth1:None,s1001-eth2:None,s1001-eth3:None,s1001-eth4:None pid=91564> 
 
-Level 25:mininet:<OVSSwitch s1002: lo:127.0.0.1,s1002-eth1:None,s1002-eth2:None,s1002-eth3:None,s1002-eth4:None pid=28263> 
+Level 25:mininet:<OVSSwitch s1002: lo:127.0.0.1,s1002-eth1:None,s1002-eth2:None,s1002-eth3:None,s1002-eth4:None pid=91571> 
 
-Level 25:mininet:<OVSSwitch s1003: lo:127.0.0.1,s1003-eth1:None,s1003-eth2:None,s1003-eth3:None,s1003-eth4:None pid=28266> 
+Level 25:mininet:<OVSSwitch s1003: lo:127.0.0.1,s1003-eth1:None,s1003-eth2:None,s1003-eth3:None,s1003-eth4:None pid=91577> 
 
-Level 25:mininet:<OVSSwitch s1004: lo:127.0.0.1,s1004-eth1:None,s1004-eth2:None,s1004-eth3:None,s1004-eth4:None pid=28269> 
+Level 25:mininet:<OVSSwitch s1004: lo:127.0.0.1,s1004-eth1:None,s1004-eth2:None,s1004-eth3:None,s1004-eth4:None pid=91598> 
 
-Level 25:mininet:<OVSSwitch s2001: lo:127.0.0.1,s2001-eth1:None,s2001-eth2:None,s2001-eth3:None,s2001-eth4:None pid=28272> 
+Level 25:mininet:<OVSSwitch s2001: lo:127.0.0.1,s2001-eth1:None,s2001-eth2:None,s2001-eth3:None,s2001-eth4:None pid=91633> 
 
-Level 25:mininet:<OVSSwitch s2002: lo:127.0.0.1,s2002-eth1:None,s2002-eth2:None,s2002-eth3:None,s2002-eth4:None pid=28275> 
+Level 25:mininet:<OVSSwitch s2002: lo:127.0.0.1,s2002-eth1:None,s2002-eth2:None,s2002-eth3:None,s2002-eth4:None pid=91645> 
 
-Level 25:mininet:<OVSSwitch s2003: lo:127.0.0.1,s2003-eth1:None,s2003-eth2:None,s2003-eth3:None,s2003-eth4:None pid=28278> 
+Level 25:mininet:<OVSSwitch s2003: lo:127.0.0.1,s2003-eth1:None,s2003-eth2:None,s2003-eth3:None,s2003-eth4:None pid=91660> 
 
-Level 25:mininet:<OVSSwitch s2004: lo:127.0.0.1,s2004-eth1:None,s2004-eth2:None,s2004-eth3:None,s2004-eth4:None pid=28281> 
+Level 25:mininet:<OVSSwitch s2004: lo:127.0.0.1,s2004-eth1:None,s2004-eth2:None,s2004-eth3:None,s2004-eth4:None pid=91677> 
 
-Level 25:mininet:<OVSSwitch s2005: lo:127.0.0.1,s2005-eth1:None,s2005-eth2:None,s2005-eth3:None,s2005-eth4:None pid=28284> 
+Level 25:mininet:<OVSSwitch s2005: lo:127.0.0.1,s2005-eth1:None,s2005-eth2:None,s2005-eth3:None,s2005-eth4:None pid=91692> 
 
-Level 25:mininet:<OVSSwitch s2006: lo:127.0.0.1,s2006-eth1:None,s2006-eth2:None,s2006-eth3:None,s2006-eth4:None pid=28287> 
+Level 25:mininet:<OVSSwitch s2006: lo:127.0.0.1,s2006-eth1:None,s2006-eth2:None,s2006-eth3:None,s2006-eth4:None pid=91703> 
 
-Level 25:mininet:<OVSSwitch s2007: lo:127.0.0.1,s2007-eth1:None,s2007-eth2:None,s2007-eth3:None,s2007-eth4:None pid=28290> 
+Level 25:mininet:<OVSSwitch s2007: lo:127.0.0.1,s2007-eth1:None,s2007-eth2:None,s2007-eth3:None,s2007-eth4:None pid=91709> 
 
-Level 25:mininet:<OVSSwitch s2008: lo:127.0.0.1,s2008-eth1:None,s2008-eth2:None,s2008-eth3:None,s2008-eth4:None pid=28293> 
+Level 25:mininet:<OVSSwitch s2008: lo:127.0.0.1,s2008-eth1:None,s2008-eth2:None,s2008-eth3:None,s2008-eth4:None pid=91716> 
 
-Level 25:mininet:<OVSSwitch s3001: lo:127.0.0.1,s3001-eth1:None,s3001-eth2:None,s3001-eth3:None,s3001-eth4:None pid=28296> 
+Level 25:mininet:<OVSSwitch s3001: lo:127.0.0.1,s3001-eth1:None,s3001-eth2:None,s3001-eth3:None,s3001-eth4:None pid=91725> 
 
-Level 25:mininet:<OVSSwitch s3002: lo:127.0.0.1,s3002-eth1:None,s3002-eth2:None,s3002-eth3:None,s3002-eth4:None pid=28299> 
+Level 25:mininet:<OVSSwitch s3002: lo:127.0.0.1,s3002-eth1:None,s3002-eth2:None,s3002-eth3:None,s3002-eth4:None pid=91738> 
 
-Level 25:mininet:<OVSSwitch s3003: lo:127.0.0.1,s3003-eth1:None,s3003-eth2:None,s3003-eth3:None,s3003-eth4:None pid=28302> 
+Level 25:mininet:<OVSSwitch s3003: lo:127.0.0.1,s3003-eth1:None,s3003-eth2:None,s3003-eth3:None,s3003-eth4:None pid=91755> 
 
-Level 25:mininet:<OVSSwitch s3004: lo:127.0.0.1,s3004-eth1:None,s3004-eth2:None,s3004-eth3:None,s3004-eth4:None pid=28305> 
+Level 25:mininet:<OVSSwitch s3004: lo:127.0.0.1,s3004-eth1:None,s3004-eth2:None,s3004-eth3:None,s3004-eth4:None pid=91794> 
 
-Level 25:mininet:<OVSSwitch s3005: lo:127.0.0.1,s3005-eth1:None,s3005-eth2:None,s3005-eth3:None,s3005-eth4:None pid=28308> 
+Level 25:mininet:<OVSSwitch s3005: lo:127.0.0.1,s3005-eth1:None,s3005-eth2:None,s3005-eth3:None,s3005-eth4:None pid=91806> 
 
-Level 25:mininet:<OVSSwitch s3006: lo:127.0.0.1,s3006-eth1:None,s3006-eth2:None,s3006-eth3:None,s3006-eth4:None pid=28311> 
+Level 25:mininet:<OVSSwitch s3006: lo:127.0.0.1,s3006-eth1:None,s3006-eth2:None,s3006-eth3:None,s3006-eth4:None pid=91819> 
 
-Level 25:mininet:<OVSSwitch s3007: lo:127.0.0.1,s3007-eth1:None,s3007-eth2:None,s3007-eth3:None,s3007-eth4:None pid=28314> 
+Level 25:mininet:<OVSSwitch s3007: lo:127.0.0.1,s3007-eth1:None,s3007-eth2:None,s3007-eth3:None,s3007-eth4:None pid=91836> 
 
-Level 25:mininet:<OVSSwitch s3008: lo:127.0.0.1,s3008-eth1:None,s3008-eth2:None,s3008-eth3:None,s3008-eth4:None pid=28317> 
+Level 25:mininet:<OVSSwitch s3008: lo:127.0.0.1,s3008-eth1:None,s3008-eth2:None,s3008-eth3:None,s3008-eth4:None pid=91844> 
 
-Level 25:mininet:<Controller c0: 127.0.0.1:6653 pid=28218> 
+Level 25:mininet:<Controller c0: 127.0.0.1:6653 pid=91103> 
+
+ERROR:mininet:invalid number of args: link end1 end2 [up down]
 
 Level 25:mininet:s1001-eth1<->s2001-eth1 (OK OK) 
 
@@ -321,107 +634,77 @@ Level 25:mininet:s3008-eth3<->h015-eth0 (OK OK)
 
 Level 25:mininet:s3008-eth4<->h016-eth0 (OK OK) 
 
-INFO:mininet:*** Stopping 1 controllers
+Level 25:mininet:<CPULimitedHost h001: h001-eth0:10.0.0.1 pid=91121> 
 
-INFO:mininet:c0 
-INFO:mininet:
+Level 25:mininet:<CPULimitedHost h002: h002-eth0:10.0.0.2 pid=91179> 
 
-INFO:mininet:*** Stopping 48 links
+Level 25:mininet:<CPULimitedHost h003: h003-eth0:10.0.0.3 pid=91194> 
 
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:.
-INFO:mininet:
+Level 25:mininet:<CPULimitedHost h004: h004-eth0:10.0.0.4 pid=91214> 
 
-INFO:mininet:*** Stopping 20 switches
+Level 25:mininet:<CPULimitedHost h005: h005-eth0:10.0.0.5 pid=91238> 
 
-INFO:mininet:s1001 
-INFO:mininet:s1002 
-INFO:mininet:s1003 
-INFO:mininet:s1004 
-INFO:mininet:s2001 
-INFO:mininet:s2002 
-INFO:mininet:s2003 
-INFO:mininet:s2004 
-INFO:mininet:s2005 
-INFO:mininet:s2006 
-INFO:mininet:s2007 
-INFO:mininet:s2008 
-INFO:mininet:s3001 
-INFO:mininet:s3002 
-INFO:mininet:s3003 
-INFO:mininet:s3004 
-INFO:mininet:s3005 
-INFO:mininet:s3006 
-INFO:mininet:s3007 
-INFO:mininet:s3008 
-INFO:mininet:
+Level 25:mininet:<CPULimitedHost h006: h006-eth0:10.0.0.6 pid=91272> 
 
-INFO:mininet:*** Stopping 16 hosts
+Level 25:mininet:<CPULimitedHost h007: h007-eth0:10.0.0.7 pid=91300> 
 
-INFO:mininet:h001 
-INFO:mininet:h002 
-INFO:mininet:h003 
-INFO:mininet:h004 
-INFO:mininet:h005 
-INFO:mininet:h006 
-INFO:mininet:h007 
-INFO:mininet:h008 
-INFO:mininet:h009 
-INFO:mininet:h010 
-INFO:mininet:h011 
-INFO:mininet:h012 
-INFO:mininet:h013 
-INFO:mininet:h014 
-INFO:mininet:h015 
-INFO:mininet:h016 
-INFO:mininet:
-*** Done
+Level 25:mininet:<CPULimitedHost h008: h008-eth0:10.0.0.8 pid=91309> 
 
-INFO:mininet:completed in 140.295 seconds
+Level 25:mininet:<CPULimitedHost h009: h009-eth0:10.0.0.9 pid=91340> 
+
+Level 25:mininet:<CPULimitedHost h010: h010-eth0:10.0.0.10 pid=91360> 
+
+Level 25:mininet:<CPULimitedHost h011: h011-eth0:10.0.0.11 pid=91375> 
+
+Level 25:mininet:<CPULimitedHost h012: h012-eth0:10.0.0.12 pid=91412> 
+
+Level 25:mininet:<CPULimitedHost h013: h013-eth0:10.0.0.13 pid=91446> 
+
+Level 25:mininet:<CPULimitedHost h014: h014-eth0:10.0.0.14 pid=91477> 
+
+Level 25:mininet:<CPULimitedHost h015: h015-eth0:10.0.0.15 pid=91497> 
+
+Level 25:mininet:<CPULimitedHost h016: h016-eth0:10.0.0.16 pid=91513> 
+
+Level 25:mininet:<OVSSwitch s1001: lo:127.0.0.1,s1001-eth1:None,s1001-eth2:None,s1001-eth3:None,s1001-eth4:None pid=91564> 
+
+Level 25:mininet:<OVSSwitch s1002: lo:127.0.0.1,s1002-eth1:None,s1002-eth2:None,s1002-eth3:None,s1002-eth4:None pid=91571> 
+
+Level 25:mininet:<OVSSwitch s1003: lo:127.0.0.1,s1003-eth1:None,s1003-eth2:None,s1003-eth3:None,s1003-eth4:None pid=91577> 
+
+Level 25:mininet:<OVSSwitch s1004: lo:127.0.0.1,s1004-eth1:None,s1004-eth2:None,s1004-eth3:None,s1004-eth4:None pid=91598> 
+
+Level 25:mininet:<OVSSwitch s2001: lo:127.0.0.1,s2001-eth1:None,s2001-eth2:None,s2001-eth3:None,s2001-eth4:None pid=91633> 
+
+Level 25:mininet:<OVSSwitch s2002: lo:127.0.0.1,s2002-eth1:None,s2002-eth2:None,s2002-eth3:None,s2002-eth4:None pid=91645> 
+
+Level 25:mininet:<OVSSwitch s2003: lo:127.0.0.1,s2003-eth1:None,s2003-eth2:None,s2003-eth3:None,s2003-eth4:None pid=91660> 
+
+Level 25:mininet:<OVSSwitch s2004: lo:127.0.0.1,s2004-eth1:None,s2004-eth2:None,s2004-eth3:None,s2004-eth4:None pid=91677> 
+
+Level 25:mininet:<OVSSwitch s2005: lo:127.0.0.1,s2005-eth1:None,s2005-eth2:None,s2005-eth3:None,s2005-eth4:None pid=91692> 
+
+Level 25:mininet:<OVSSwitch s2006: lo:127.0.0.1,s2006-eth1:None,s2006-eth2:None,s2006-eth3:None,s2006-eth4:None pid=91703> 
+
+Level 25:mininet:<OVSSwitch s2007: lo:127.0.0.1,s2007-eth1:None,s2007-eth2:None,s2007-eth3:None,s2007-eth4:None pid=91709> 
+
+Level 25:mininet:<OVSSwitch s2008: lo:127.0.0.1,s2008-eth1:None,s2008-eth2:None,s2008-eth3:None,s2008-eth4:None pid=91716> 
+
+Level 25:mininet:<OVSSwitch s3001: lo:127.0.0.1,s3001-eth1:None,s3001-eth2:None,s3001-eth3:None,s3001-eth4:None pid=91725> 
+
+Level 25:mininet:<OVSSwitch s3002: lo:127.0.0.1,s3002-eth1:None,s3002-eth2:None,s3002-eth3:None,s3002-eth4:None pid=91738> 
+
+Level 25:mininet:<OVSSwitch s3003: lo:127.0.0.1,s3003-eth1:None,s3003-eth2:None,s3003-eth3:None,s3003-eth4:None pid=91755> 
+
+Level 25:mininet:<OVSSwitch s3004: lo:127.0.0.1,s3004-eth1:None,s3004-eth2:None,s3004-eth3:None,s3004-eth4:None pid=91794> 
+
+Level 25:mininet:<OVSSwitch s3005: lo:127.0.0.1,s3005-eth1:None,s3005-eth2:None,s3005-eth3:None,s3005-eth4:None pid=91806> 
+
+Level 25:mininet:<OVSSwitch s3006: lo:127.0.0.1,s3006-eth1:None,s3006-eth2:None,s3006-eth3:None,s3006-eth4:None pid=91819> 
+
+Level 25:mininet:<OVSSwitch s3007: lo:127.0.0.1,s3007-eth1:None,s3007-eth2:None,s3007-eth3:None,s3007-eth4:None pid=91836> 
+
+Level 25:mininet:<OVSSwitch s3008: lo:127.0.0.1,s3008-eth1:None,s3008-eth2:None,s3008-eth3:None,s3008-eth4:None pid=91844> 
+
+Level 25:mininet:<Controller c0: 127.0.0.1:6653 pid=91103> 
 

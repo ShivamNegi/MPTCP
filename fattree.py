@@ -5,6 +5,7 @@ import os
 from mininet.net import Mininet
 from mininet.node import CPULimitedHost
 from mininet.link import TCLink
+from mininet.cli import CLI
 
 logging.basicConfig(filename='./fattree.log', level=logging.DEBUG)
 logger = logging.getLogger(__name__)
@@ -24,6 +25,9 @@ class FatTree( Topo ):
         self.iEdgeLayerSwitch = k*k/2
         self.density = k/2
         self.iHost = self.iEdgeLayerSwitch * self.density
+        
+        logger.debug("Core Layer Switch: ", self.iCoreLayerSwitch)
+        logger.debug("Agg Layer Switch: ", self.iAggLayerSwitch)
         
         self.bw_c2a = 0.2
         self.bw_a2e = 0.1
@@ -114,6 +118,17 @@ class FatTree( Topo ):
                     self.EdgeSwitchList[x],
                     self.HostList[self.density * x + i],
                     **linkopts)
-        
-topos = { 'fattree' : ( lambda k : FatTree(k)) }
+
+'''
+def main():
+    topo = FatTree(4)
+
+    net = Mininet(topo=topo, host=CPULimitedHost, link = TCLink)
+    net.start()
+    CLI(net)
+    net.stop()
+
+if __name__ == "__main__":
+    main()
+'''
 
