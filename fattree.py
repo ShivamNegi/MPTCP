@@ -62,7 +62,7 @@ class FatTree( Topo ):
             PREFIX = str(level) + "00"
             if x >= int(10):
                 PREFIX = str(level) + "0"
-            switch_list.append(self.addSwitch('s' + PREFIX + str(x)))
+            switch_list.append(self.addSwitch('s' + PREFIX + str(x), stp=True, failMode='standalone'))
 
     def createCoreLayerSwitch(self, NUMBER):
         logger.debug("Create Core Layer")
@@ -78,13 +78,19 @@ class FatTree( Topo ):
 
     def createHost(self, NUMBER):
         logger.debug("Create Host")
+        mask_ip = '10.0.0.'
+        ending_ip = '.10'
+
         for x in xrange(1, NUMBER+1):
             PREFIX = "h00"
             if x >= int(10):
                 PREFIX = "h0"
             elif x >= int(100):
                 PREFIX = "h"
-            self.HostList.append(self.addHost(PREFIX + str(x)))
+
+            # host_ip = mask_ip + str(x) + ending_ip
+            host_ip = mask_ip + str(x)# + ending_ip
+            self.HostList.append(self.addHost(PREFIX + str(x), ip=host_ip))
 
     """
     Add Link

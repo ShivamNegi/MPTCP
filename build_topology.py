@@ -134,7 +134,7 @@ def experiment_ecmp(net):
 def call_cli(net):
     ''' Call Mininet Cmd line for testing the network '''
     net.start()
-    sleep(3)
+    sleep(100)
     CLI(net)
     net.stop()
 
@@ -144,13 +144,14 @@ TOPOS = {'JellyTopo' : (lambda : JellyFishTop()),
 def main():
     # Initializing topology
     jelly_topo = JellyFishTop()
-    fat_topo = FatTree(3)
+    fat_topo = FatTree(4)
 
     # Creating Mininet instance for the network
     jelly_net = Mininet(topo=jelly_topo, host=CPULimitedHost, link=TCLink)
     fat_net = Mininet(topo=fat_topo, host=CPULimitedHost, link=TCLink)
 
-    experiment_8shortest(fat_net)
+    call_cli(fat_net)
+    # experiment_8shortest(fat_net)
 
 if __name__ == "__main__":
     main()
