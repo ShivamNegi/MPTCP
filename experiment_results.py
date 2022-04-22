@@ -40,7 +40,7 @@ def get_throughput(filename):
 def get_average_throughput_per_pair(client, server, test_type):
      # from the jellyfish paper, results are averaged over 5 runs
     host_pair_sum = 0
-    num_runs = 5
+    num_runs = 2
     run_count = 0
     for run in range(num_runs):
         filename = 'iperf_%s_%s_to_%s_%d.txt' % (test_type,
@@ -54,6 +54,7 @@ def get_average_throughput_per_pair(client, server, test_type):
 def get_average_throughput(hosts, test_type, link_capacity=None):
     throughput_sum = 0
     num_flows = 0
+
     for client, server in pairwise(hosts):
         host_pair_avg = get_average_throughput_per_pair(client, server, test_type)
         if host_pair_avg is not None:
@@ -74,12 +75,16 @@ def get_link_capacity(hosts):
 
     return link_capacity
 
-def make_table1():
+def make_table1(NUMBER):
     hosts = []
-    with open('graph.json', 'r') as fp:
-        adj_dict = json.load(fp)
-        for i in range(0, len(adj_dict.keys())):
-            hosts.append('h'+str(i))
+
+    for x in xrange(1, NUMBER+1):
+        PREFIX = "h00"
+        if x >= int(10):
+            PREFIX = "h0"
+        elif x >= int(100):
+            PREFIX = "h"
+        hosts.append(PREFIX + str(x))
 
     # (client, server) => capacity in mbits/sec
     link_capacity = get_link_capacity(hosts)
@@ -92,6 +97,7 @@ def make_table1():
     shortest8_8flow = get_average_throughput(hosts, 'shortest8_8flow', link_capacity)
     print 'shortest8_8flow', shortest8_8flow
 
+    '''
     # get throughput percentage for tcp 1 flow ecmp
     ecmp_1flow = get_average_throughput(hosts, 'ecmp_1flow', link_capacity)
     print 'ecmp_1flow', ecmp_1flow
@@ -99,10 +105,13 @@ def make_table1():
     # get throughput percentage for tcp 8 flows ecmp
     ecmp_8flow = get_average_throughput(hosts, 'ecmp_8flow', link_capacity)
     print 'ecmp_8flow', ecmp_8flow
+    '''
 
+    exit()
     print "Generating table of results..."
     columns = ('ECMP', '8-shortest paths')
     rows = ['TCP 1 flow', 'TCP 8 flow']
+
     cell_text = [[ecmp_1flow, shortest8_1flow],
                 [ecmp_8flow, shortest8_8flow]]
 
@@ -121,9 +130,8 @@ def make_table1():
 
     print "Done. Created table in file:", filename
 
-
 def main():
-    make_table1()
+    make_table1(4)
 
 if __name__ == "__main__":
     main()

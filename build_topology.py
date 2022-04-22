@@ -103,11 +103,9 @@ def experiment_8shortest(net):
     for i in range(0, num_runs):
         iperf_test(net.hosts, "shortest8_1flow", i)
 
-    '''
     print "Running TCP 8-flow experiment on jellyfish"
     for i in range(0, num_runs):
         iperf_test(net.hosts, "shortest8_8flow", i)
-    '''
     
     print "Done with k_shortest experiments"
     net.stop()
@@ -146,13 +144,13 @@ TOPOS = {'JellyTopo' : (lambda : JellyFishTop()),
 def main():
     # Initializing topology
     jelly_topo = JellyFishTop()
-    fat_topo = FatTree(4)
+    fat_topo = FatTree(3)
 
     # Creating Mininet instance for the network
     jelly_net = Mininet(topo=jelly_topo, host=CPULimitedHost, link=TCLink)
     fat_net = Mininet(topo=fat_topo, host=CPULimitedHost, link=TCLink)
 
-    experiment_8shortest(jelly_net)
+    experiment_8shortest(fat_net)
 
 if __name__ == "__main__":
     main()
