@@ -150,7 +150,7 @@ def main():
     jelly_net = Mininet(topo=jelly_topo, host=CPULimitedHost, link=TCLink)
     fat_net = Mininet(topo=fat_topo, host=CPULimitedHost, link=TCLink)
 
-    call_cli(fat_net)
+    call_cli(jelly_net)
     # experiment_8shortest(fat_net)
 
 if __name__ == "__main__":

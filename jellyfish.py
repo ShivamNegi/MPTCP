@@ -28,7 +28,7 @@ class JellyFishTop(Topo):
                 
                 if 's' in node:
                     switch_ip = "10.0.0.%s" % number
-                    s = self.addSwitch(node, ip=switch_ip)
+                    s = self.addSwitch(node, ip=switch_ip, stp=True, failMode='standalone')
                 else:
                     host_ip = "10.1.%s.0" % number
                     h = self.addHost(node, ip=host_ip)

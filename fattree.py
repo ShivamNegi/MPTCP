@@ -78,8 +78,6 @@ class FatTree( Topo ):
 
     def createHost(self, NUMBER):
         logger.debug("Create Host")
-        mask_ip = '10.0.0.'
-        ending_ip = '.10'
 
         for x in xrange(1, NUMBER+1):
             PREFIX = "h00"
@@ -88,8 +86,7 @@ class FatTree( Topo ):
             elif x >= int(100):
                 PREFIX = "h"
 
-            # host_ip = mask_ip + str(x) + ending_ip
-            host_ip = mask_ip + str(x)# + ending_ip
+            host_ip = "10.1.%s.0" % x
             self.HostList.append(self.addHost(PREFIX + str(x), ip=host_ip))
 
     """
